@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{FF03E77C-C5B6-46FE-A8F6-AF9F5E7EACC0}</ProjectGuid>
+    <TargetFrameworkVersion>
+    </TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>PlusIW5</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>false</CLRSupport>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>steam_api</TargetName>
+    <OutDir>$(OutDir)</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;CLIENTDLL_EXPORTS;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Dependings\Includes\curl;$(SolutionDir)\Dependings\Includes\libtom;$(SolutionDir)\Dependings\Includes\libpm;$(SolutionDir)\Dependings\Includes\osw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DiagnosticsFormat>Classic</DiagnosticsFormat>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <EnableParallelCodeGeneration>
+      </EnableParallelCodeGeneration>
+      <FloatingPointExceptions>
+      </FloatingPointExceptions>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <SDLCheck>
+      </SDLCheck>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcurl.lib;wldap32.lib;ws2_32.lib;Winmm.lib;tinyxml.lib;tomcrypt.lib;tommath.lib;LibPM.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Dependings\Libraries;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <ImageHasSafeExceptionHandlers>true</ImageHasSafeExceptionHandlers>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <GenerateMapFile>false</GenerateMapFile>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /y "$(TargetPath)" "D:\SteamLibrary\steamapps\common\Call of Duty Modern Warfare 3\steam_api.dll"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="DemonWare\bdAuthServer.h" />
+    <ClInclude Include="DemonWare\bdBitBuffer.h" />
+    <ClInclude Include="DemonWare\bdByteBuffer.h" />
+    <ClInclude Include="DemonWare\bdLSGServer.h" />
+    <ClInclude Include="DemonWare\DW.h" />
+    <ClInclude Include="DemonWare\dwMessage.h" />
+    <ClInclude Include="DemonWare\StdInc.h" />
+    <ClInclude Include="Patches\Authenticate.h" />
+    <ClInclude Include="Patches\DumpHandler.h" />
+    <ClInclude Include="Patches\InGameConsole.h" />
+    <ClInclude Include="Patches\IW5.h" />
+    <ClInclude Include="Patches\IW5Menu.h" />
+    <ClInclude Include="PlusIW5.h" />
+    <ClInclude Include="PublisherFiles\PubFiles.h" />
+    <ClInclude Include="Stdafx.h" />
+    <ClInclude Include="Steam\GSClient.h" />
+    <ClInclude Include="Steam\GSServer.h" />
+    <ClInclude Include="Steam\SteamApps004.h" />
+    <ClInclude Include="Steam\SteamBase.h" />
+    <ClInclude Include="Steam\SteamFriends009.h" />
+    <ClInclude Include="Steam\SteamGameServer010.h" />
+    <ClInclude Include="Steam\SteamMasterServerUpdater001.h" />
+    <ClInclude Include="Steam\SteamMatchmaking008.h" />
+    <ClInclude Include="Steam\SteamMatchmakingServers002.h" />
+    <ClInclude Include="Steam\SteamNetworking005.h" />
+    <ClInclude Include="Steam\SteamRemoteStorage002.h" />
+    <ClInclude Include="Steam\SteamUser016.h" />
+    <ClInclude Include="Steam\SteamUserStats010.h" />
+    <ClInclude Include="Steam\SteamUtils005.h" />
+    <ClInclude Include="Steam\steam_patch.h" />
+    <ClInclude Include="Utilities\Hooking.h" />
+    <ClInclude Include="Utilities\Log.h" />
+    <ClInclude Include="Utilities\md5.h" />
+    <ClInclude Include="Utilities\Patternscan.h" />
+    <ClInclude Include="Utilities\Utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DemonWare\bdAuthServer.cpp" />
+    <ClCompile Include="DemonWare\bdBitBuffer.cpp" />
+    <ClCompile Include="DemonWare\bdByteBuffer.cpp" />
+    <ClCompile Include="DemonWare\bdContentStreaming.cpp" />
+    <ClCompile Include="DemonWare\bdDediAuthService.cpp" />
+    <ClCompile Include="DemonWare\bdLSGServer.cpp" />
+    <ClCompile Include="DemonWare\bdMatchMaking.cpp" />
+    <ClCompile Include="DemonWare\bdMessage.cpp" />
+    <ClCompile Include="DemonWare\bdMessaging.cpp" />
+    <ClCompile Include="DemonWare\bdProfiles.cpp" />
+    <ClCompile Include="DemonWare\bdRegisterServer.cpp" />
+    <ClCompile Include="DemonWare\bdServer.cpp" />
+    <ClCompile Include="DemonWare\bdServerImpls.cpp" />
+    <ClCompile Include="DemonWare\bdSteamAuthService.cpp" />
+    <ClCompile Include="DemonWare\bdStorage.cpp" />
+    <ClCompile Include="DemonWare\bdTitleUtilities.cpp" />
+    <ClCompile Include="DemonWare\DWCrypto.cpp" />
+    <ClCompile Include="DemonWare\DWInit.cpp" />
+    <ClCompile Include="DemonWare\DWTickets.cpp" />
+    <ClCompile Include="Patches\Addresses.cpp" />
+    <ClCompile Include="Patches\Authenticate.cpp" />
+    <ClCompile Include="Patches\Branding.cpp" />
+    <ClCompile Include="Patches\CEG.cpp" />
+    <ClCompile Include="Patches\ClanTag.cpp" />
+    <ClCompile Include="Patches\Dedicated.cpp" />
+    <ClCompile Include="Patches\Drawing.cpp" />
+    <ClCompile Include="Patches\DSRanked.cpp" />
+    <ClCompile Include="Patches\DumpHandler.cpp" />
+    <ClCompile Include="Patches\DumpMenu.cpp" />
+    <ClCompile Include="Patches\Dvar.cpp" />
+    <ClCompile Include="Patches\DvarTools.cpp" />
+    <ClCompile Include="Patches\GSCScript.cpp" />
+    <ClCompile Include="Patches\IAT.cpp" />
+    <ClCompile Include="Patches\InGameConsole.cpp" />
+    <ClCompile Include="Patches\IW5.cpp" />
+    <ClCompile Include="Patches\Materials.cpp" />
+    <ClCompile Include="Patches\Multiplayer.cpp" />
+    <ClCompile Include="Patches\Notifycation.cpp" />
+    <ClCompile Include="Patches\ServerList.cpp" />
+    <ClCompile Include="Patches\Singleplayer.cpp" />
+    <ClCompile Include="Patches\Unlocker.cpp" />
+    <ClCompile Include="PlusIW5.cpp" />
+    <ClCompile Include="PublisherFiles\PubFiles.cpp" />
+    <ClCompile Include="Stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Steam\GSServer.cpp" />
+    <ClCompile Include="Steam\SteamApps004.cpp" />
+    <ClCompile Include="Steam\SteamBase.cpp" />
+    <ClCompile Include="Steam\SteamFriends009.cpp" />
+    <ClCompile Include="Steam\SteamGameServer010.cpp" />
+    <ClCompile Include="Steam\SteamMasterServerUpdater001.cpp" />
+    <ClCompile Include="Steam\SteamMatchmaking008.cpp" />
+    <ClCompile Include="Steam\SteamMatchmakingServers002.cpp" />
+    <ClCompile Include="Steam\SteamNetworking005.cpp" />
+    <ClCompile Include="Steam\SteamProxy.cpp" />
+    <ClCompile Include="Steam\SteamRemoteStorage002.cpp" />
+    <ClCompile Include="Steam\SteamUser016.cpp" />
+    <ClCompile Include="Steam\SteamUserStats010.cpp" />
+    <ClCompile Include="Steam\SteamUtils005.cpp" />
+    <ClCompile Include="Steam\steam_api.cpp" />
+    <ClCompile Include="Utilities\base64.cpp" />
+    <ClCompile Include="Utilities\Hooking.cpp" />
+    <ClCompile Include="Utilities\HWID.cpp" />
+    <ClCompile Include="Utilities\Log.cpp" />
+    <ClCompile Include="Utilities\md5.cpp" />
+    <ClCompile Include="Utilities\Patternscan.cpp" />
+    <ClCompile Include="Utilities\Utils.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

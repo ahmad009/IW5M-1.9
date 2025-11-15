@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{7101c3e3-1327-42b9-9bcb-2e4fd247d48b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Patches">
+      <UniqueIdentifier>{d5a481fd-1f23-4881-9d3f-fc6483ad8121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PublisherFiles">
+      <UniqueIdentifier>{835f2477-9cb6-4fa3-8783-f8088dad6886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Steam">
+      <UniqueIdentifier>{ae98ae63-64c6-412d-b28b-e06077be3116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Steam">
+      <UniqueIdentifier>{0b4d221e-6a64-403d-b3c0-2a9023d06be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DemonWare">
+      <UniqueIdentifier>{f701cdab-f265-4318-919a-49558cecaba2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PlusIW5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Hooking.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Log.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\md5.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Patternscan.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Utils.h">
+      <Filter>Source Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PublisherFiles\PubFiles.h">
+      <Filter>Source Files\PublisherFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\GSClient.h">
+      <Filter>Source Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\GSServer.h">
+      <Filter>Source Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Patches\IW5.h">
+      <Filter>Source Files\Patches</Filter>
+    </ClInclude>
+    <ClInclude Include="Patches\Authenticate.h">
+      <Filter>Source Files\Patches</Filter>
+    </ClInclude>
+    <ClInclude Include="Patches\DumpHandler.h">
+      <Filter>Source Files\Patches</Filter>
+    </ClInclude>
+    <ClInclude Include="Patches\IW5Menu.h">
+      <Filter>Source Files\Patches</Filter>
+    </ClInclude>
+    <ClInclude Include="Patches\InGameConsole.h">
+      <Filter>Source Files\Patches</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\steam_patch.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\SteamApps004.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\SteamBase.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\SteamFriends009.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\SteamGameServer010.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\SteamMasterServerUpdater001.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\SteamMatchmaking008.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\SteamMatchmakingServers002.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\SteamNetworking005.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\SteamRemoteStorage002.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\SteamUser016.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\SteamUserStats010.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\SteamUtils005.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="DemonWare\bdAuthServer.h">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClInclude>
+    <ClInclude Include="DemonWare\bdBitBuffer.h">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClInclude>
+    <ClInclude Include="DemonWare\bdByteBuffer.h">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClInclude>
+    <ClInclude Include="DemonWare\bdLSGServer.h">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClInclude>
+    <ClInclude Include="DemonWare\DW.h">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClInclude>
+    <ClInclude Include="DemonWare\dwMessage.h">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClInclude>
+    <ClInclude Include="DemonWare\StdInc.h">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PlusIW5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\CEG.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\Dedicated.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\IAT.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\Multiplayer.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\ServerList.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\Singleplayer.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Hooking.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Log.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\md5.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Patternscan.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Utils.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Steam\steam_api.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="Steam\SteamApps004.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="Steam\SteamBase.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="Steam\SteamFriends009.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="Steam\SteamGameServer010.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="Steam\SteamMasterServerUpdater001.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="Steam\SteamMatchmaking008.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="Steam\SteamMatchmakingServers002.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="Steam\SteamNetworking005.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="Steam\SteamProxy.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="Steam\SteamRemoteStorage002.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="Steam\SteamUser016.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="Steam\SteamUserStats010.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="Steam\SteamUtils005.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="PublisherFiles\PubFiles.cpp">
+      <Filter>Source Files\PublisherFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Steam\GSServer.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\IW5.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\HWID.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\Authenticate.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\Branding.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\ClanTag.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\Drawing.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\DumpHandler.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\DumpMenu.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\InGameConsole.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\Materials.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\Notifycation.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\Dvar.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\Addresses.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\DSRanked.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\GSCScript.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonWare\bdAuthServer.cpp">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonWare\bdBitBuffer.cpp">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonWare\bdByteBuffer.cpp">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonWare\bdContentStreaming.cpp">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonWare\bdDediAuthService.cpp">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonWare\bdLSGServer.cpp">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonWare\bdMatchMaking.cpp">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonWare\bdMessage.cpp">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonWare\bdMessaging.cpp">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonWare\bdProfiles.cpp">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonWare\bdRegisterServer.cpp">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonWare\bdServer.cpp">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonWare\bdServerImpls.cpp">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonWare\bdSteamAuthService.cpp">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonWare\bdStorage.cpp">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonWare\bdTitleUtilities.cpp">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonWare\DWCrypto.cpp">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonWare\DWInit.cpp">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClCompile>
+    <ClCompile Include="DemonWare\DWTickets.cpp">
+      <Filter>Source Files\DemonWare</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\DvarTools.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Patches\Unlocker.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\base64.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
